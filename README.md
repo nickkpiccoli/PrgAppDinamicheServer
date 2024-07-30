@@ -34,9 +34,9 @@ si collega a due database PostgreSQL: `webUsers` per gestire gli utenti e
     cd <directory del progetto>
     npm install
     ```
-3. Configura i database PostgreSQL
-    - Crea i database `webUsers` e `organization`.
-    - Configura le tabelle e inserisci i dati iniziali come necessario.
+3. Configura i database PostgreSQL16
+    - Crea i database `webUsers` e `organization`, assicurandoti di usare il formato UTF-8
+    - Con i file di Backup `usersBackup.sql` e `organizationBackup.sql` nella root del server popola le tabelle nei rispettivi Db.
 
 4. Configura il file `config.js` con le informazioni di accesso ai database e 
 la chiave segreta per i `JWT`.
